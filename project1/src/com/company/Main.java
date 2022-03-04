@@ -35,15 +35,9 @@ public class Main {
 
         switch (operator) {
             case 1 -> addition(num1, num2);
-            case 2 ->
-                    //System.out.println("Answer is :"+ (num1-num2));
-                    substraction(num1, num2);
-            case 3 ->
-                    //System.out.println("Answer is :"+ (num1*num2));
-                    multiply(num1, num2);
-            case 4 ->
-                    //System.out.println("Answer is :"+(num1/num2));
-                    divide(num1, num2);
+            case 2 -> substraction(num1, num2);
+            case 3 ->multiply(num1, num2);
+            case 4 ->divide(num1, num2);
             default -> System.out.println("Invalid operator");
         }
 
